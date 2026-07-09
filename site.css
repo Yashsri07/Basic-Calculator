@@ -1,0 +1,92 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Calculator */
+.calculator{
+    text-align: center;
+}
+
+/* Calculator Box */
+.calculator-body{
+    background-color: #5e5e5e;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.calculator h1{
+    margin-bottom: 20px;
+}
+
+/* Display */
+#display{
+    width: 100%;
+    height: 50px;
+
+    font-size: 24px;
+    text-align: right;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Buttons Container */
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Every Row */
+.button-row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Buttons */
+button{
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+/* Hover Effect */
+button:hover{
+    background-color: #d8d8d8;
+}
+
+/* Click Effect */
+button:active{
+    transform: scale(0.95);
+}
